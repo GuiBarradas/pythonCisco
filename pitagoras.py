@@ -1,5 +1,3 @@
-a = 3.0
-b = 4.0
-c = (a ** 2 + b ** 2) ** 0.5
-print("c =", c)
- 
+leg_a = float(input("Insira o comprimento da primeira perna: "))
+leg_b = float(input("Insira o comprimento da segunda perna: "))
+print("O comprimento da hipotenusa é", (leg_a**2 + leg_b**2) ** .5)
